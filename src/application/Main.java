@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+// Sprawdźmy, czy to w końcu działa
         // Constants
         final int SCREEN_WIDTH = 20; // Columns
         final int SCREEN_HEIGHT = 10; // Rows
