@@ -1,5 +1,3 @@
-
-
 package application;
 
 import java.util.Scanner;
@@ -48,20 +46,15 @@ public class Main {
             switch (input = scanner.nextLine().charAt(0)) {
                 case 'a':
                     snake.moveLeft(screen, snake);
-                    System.out.println("Ta gra jest słaba ;/.... Saper lepszy...");
-                    System.out.println("Zgadza sie... saper lepszy :P");
                     break;
                 case 'd':
                     snake.moveRight(screen, snake);
-                    System.out.println("Ta gra jest słaba ;/.... Saper lepszy...");
                     break;
                 case 'w':
                     snake.moveUp(screen, snake);
-                    System.out.println("Ta gra jest słaba ;/.... Saper lepszy...");
                     break;
                 case 's':
                     snake.moveDown(screen, snake);
-                    System.out.println("Ta gra jest słaba ;/.... Saper lepszy...");
                     break;
             }
 
